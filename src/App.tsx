@@ -1,7 +1,6 @@
 import "./App.sass";
 import AdressComponent from "./components/AdressComponent";
 import GeneralComponent from "./components/GeneralComponent";
-import SendingAdressComponent from "./components/SendingAdressComponent";
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <main>
           <GeneralComponent />
           <AdressComponent />
-          <SendingAdressComponent />
+          <AdressComponent />
         </main>
       </div>
     </>
