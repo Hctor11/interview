@@ -25,7 +25,6 @@ button
   font-family: inherit
   background-color: #1a1a1a
   cursor: pointer
-  transition: border-color 0.25s
 
 input
   padding: 12px
@@ -36,14 +35,23 @@ input
 button:hover
   border-color: #646cff
 
+button:active
+  border: 1px solid red
+  background-color: #404040
+
 .form-container
+  padding-top: 5em
   display: flex
   flex-direction: column
   gap: 1em
-  margin: 1em
+  margin: 1em auto
   max-width: 50%
   align-items: center
+  justify-content: center
+  height: 500px
+  max-height: 500px
+
 
 select
-  padding: 1em 
+  padding: 1em
   border-radius: 6px
